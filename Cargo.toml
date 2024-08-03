@@ -3,5 +3,4 @@ name = "ripferris"
 edition = "2021"
 
 [profile.release]
-debug = 1
 incremental = true

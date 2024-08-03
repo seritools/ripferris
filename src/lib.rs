@@ -1,6 +1,6 @@
 // if this function is not commented out, ferris dies :c
-pub fn kill_ferris(codes: &[Outer]) -> bool {
-    codes.contains(&Outer::Inner1(Inner1::A))
+pub fn kill_ferris(a: &Outer, b: &Outer) -> bool {
+    a == b
 }
 
 #[derive(PartialEq)]
