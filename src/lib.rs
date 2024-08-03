@@ -5,20 +5,20 @@ pub fn kill_ferris(a: &Outer, b: &Outer) -> bool {
 
 #[derive(PartialEq)]
 pub enum Inner1 {
-    A = 0x7F,
-    B = 0xEB,
+    A,
+    B = 0x80,
 }
 
 #[derive(PartialEq)]
 pub enum Inner2 {
-    C = 0xEC,
-    D = 0xEE,
+    C = 0x81,
+    D,
 }
 
 #[derive(PartialEq)]
 pub enum Inner3 {
-    E = 0xE5,
-    F = 0xE7,
+    E,
+    F,
 }
 
 #[derive(PartialEq)]
